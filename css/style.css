@@ -126,7 +126,7 @@ img{
 
 figure {
     position: relative;
-    border: 5px solid #0fb4d1;
+    border: 5px solid #003049;
     border-radius: 10%;
     overflow: hidden;
     margin: 20px;
@@ -139,6 +139,8 @@ figure a:hover img {
 
 figcaption {
     text-align: center;
+    background-color: #003049;
+    color: #fdf0d5;
 }
 
 #myLinks .home {
@@ -237,11 +239,16 @@ footer a {
 
 @media all and (prefers-color-scheme: dark) {
   figure figcaption {
-    background-color: #003049;
-    color: #fdf0d5;
+    background-color: #fdf0d5;
+    color: #333;
   }
 
   figure {
-      border: 5px solid #003049;
+      border: 5px solid #fdf0d5;
+  }
+
+  body {
+    background-color: #333;
+    color: #fdf0d5;
   }
 }
